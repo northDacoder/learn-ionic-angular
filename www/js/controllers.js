@@ -33,16 +33,20 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
+.controller('LanguagesCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'Python', id: 1 },
+    { title: 'Django', id: 2 },
+    { title: 'JavaScript', id: 3 },
+    { title: 'jQuery', id: 4 },
+    { title: 'Bootstrap', id: 5 },
+    { title: 'Groovy', id: 6 },
+    { title: 'Grails', id: 7 },
+    { title: 'TypeScript', id: 8 },
+    { title: '.Net', id: 9 },
+    { title: 'Java', id: 10 },
   ];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('LanguageCtrl', function($scope, $stateParams) {
 });
