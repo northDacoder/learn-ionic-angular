@@ -34,7 +34,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('LanguagesCtrl', function($scope) {
-  $scope.playlists = [
+  $scope.languages = [
     { title: 'Python', id: 1 },
     { title: 'Django', id: 2 },
     { title: 'JavaScript', id: 3 },
